@@ -1,0 +1,64 @@
+[INFO] Console - predicting pockets for proteins from dataset [PDR5_YEAST_relaxed.pdb]
+[INFO] PredictPocketsRoutine - outdir: ../dataset/proteins/prankweb/PDR5_YEAST
+[INFO] Model - Loading model from directory (v3 format): /home/zhenli/git/p2rank_2.5/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [PDR5_YEAST_relaxed.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [PDR5_YEAST_relaxed.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [PDR5_YEAST_relaxed.pdb] (1/1)
+[INFO] Protein - loading protein [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/PDR5_YEAST_relaxed.pdb]
+[INFO] PdbUtils - loading file [../dataset/proteins/pdb/PDR5_YEAST_relaxed.pdb]
+[INFO] Struct - all groups in chain A: 1511
+[INFO] Struct - all groups in chain A: 1511
+[INFO] Struct - 1511 groups in chain A
+[INFO] Protein - structure atoms: 23853
+[INFO] Protein - protein   atoms: 11773
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 21619
+[INFO] Protein - exposed protein atoms: 7407 of 11773
+[INFO] SLinkClusterer - clustering [449] elements
+[INFO] SLinkClusterer - clusters: [id:2( 1 ), id:4( 5 ), id:6( 1 ), id:9( 3 ), id:29( 67 ), id:75( 2 ), id:77( 6 ), id:78( 1 ), id:80( 4 ), id:87( 10 ), id:111( 5 ), id:112( 1 ), id:125( 43 ), id:129( 1 ), id:150( 5 ), id:151( 2 ), id:152( 1 ), id:153( 3 ), id:154( 1 ), id:163( 1 ), id:164( 1 ), id:165( 1 ), id:166( 2 ), id:219( 72 ), id:231( 27 ), id:237( 1 ), id:246( 1 ), id:260( 2 ), id:268( 1 ), id:269( 1 ), id:281( 1 ), id:286( 14 ), id:287( 4 ), id:290( 3 ), id:306( 1 ), id:308( 17 ), id:310( 1 ), id:312( 4 ), id:320( 10 ), id:327( 9 ), id:336( 8 ), id:339( 2 ), id:340( 1 ), id:345( 5 ), id:347( 2 ), id:348( 2 ), id:349( 1 ), id:353( 1 ), id:354( 2 ), id:356( 4 ), id:357( 2 ), id:359( 1 ), id:360( 1 ), id:361( 1 ), id:363( 3 ), id:364( 1 ), id:371( 2 ), id:372( 1 ), id:396( 4 ), id:398( 2 ), id:400( 3 ), id:401( 1 ), id:402( 1 ), id:404( 1 ), id:405( 1 ), id:406( 1 ), id:407( 1 ), id:422( 10 ), id:429( 1 ), id:436( 1 ), id:441( 3 ), id:443( 37 ), id:444( 1 ), id:446( 3 ), id:447( 1 ), id:448( 1 )]
+[INFO] SLinkClusterer - clusters together: 449 / 449
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 21619
+[INFO] PocketPredictor - LIGANDABLE POINTS: 449
+[INFO] PocketPredictor - CLUSTERS: 76
+[INFO] PocketPredictor - FILTERED CLUSTERS: 29
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  70   points:  72   score:   32.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  75   points:  67   score:   24.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  64   points:  43   score:   14.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  56   points:  27   score:   10.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  55   points:  37   score:   10.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  28   points:  17   score:    6.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  26   points:  14   score:    5.4
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  31   points:  10   score:    3.8
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  33   points:  10   score:    3.5
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  20   points:   9   score:    3.4
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  15   points:  10   score:    3.3
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  21   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  25   points:   5   score:    2.6
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  18   points:   5   score:    2.4
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  11   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  21   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  21   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  24   points:   6   score:    1.7
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  11   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  16   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  14   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  20   points:   5   score:    1.1
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket25 -  surf_atoms:  14   points:   4   score:    1.1
+[INFO] PocketPredictor - pocket26 -  surf_atoms:  11   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket27 -  surf_atoms:  19   points:   3   score:    0.8
+[INFO] PocketPredictor - pocket28 -  surf_atoms:  10   points:   3   score:    0.6
+[INFO] PocketPredictor - pocket29 -  surf_atoms:   6   points:   3   score:    0.6
+[INFO] PredictionVisualizer - copying [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/PDR5_YEAST_relaxed.pdb] to [../dataset/proteins/prankweb/PDR5_YEAST/visualizations/data/PDR5_YEAST_relaxed.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 1.891 seconds
+[INFO] Console - results saved to directory [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/prankweb/PDR5_YEAST]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 2.275 seconds.

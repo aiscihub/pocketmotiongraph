@@ -1,0 +1,50 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0061
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.6754
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5290
+HEADER 5  - Mean B-factor of pocket residues  : 0.9599
+HEADER 6  - Hydrophobicity Score              : 25.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.9000
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.4665
+HEADER 10 - Pocket volume (convex hull)       : 20.2110
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.5000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1481
+ATOM  21824    N ARG A1389       7.515  51.610   5.155  0.00  0.00           N 0
+ATOM  21817    O GLU A1388       8.138  53.678   4.611  0.00  0.00           O 0
+ATOM  21800    O HIS A1387       9.686  49.854   4.129  0.25  1.07           O 0
+ATOM  21826   CA ARG A1389       6.143  51.783   4.661  0.00  0.00           C 0
+ATOM  21813    C GLU A1388       8.438  52.580   5.084  0.00  0.00           C 0
+ATOM  20541  NH1 ARG A1305       9.410  48.626   0.614  0.38  4.37           N 0
+ATOM  21833   CG ARG A1389       4.126  50.509   3.789  0.00  0.00           C 0
+ATOM  21829   CB ARG A1389       5.475  50.408   4.511  0.00  0.00           C 0
+ATOM  20544  NH2 ARG A1305      11.074  49.621   1.718  0.23  6.56           N 0
+ATOM  20418    O PHE A1297       3.898  45.907  -4.364  0.48  9.64           O 0
+ATOM  21841  NH1 ARG A1389       2.019  46.982   2.224  0.44  7.66           N 0
+ATOM  20401    O VAL A1296       0.622  43.411  -2.348  0.75  4.29           O 0
+ATOM  20412   CA PHE A1297       3.233  43.851  -3.318  0.00  0.00           C 0
+ATOM  21844  NH2 ARG A1389       0.544  48.505   1.518  0.38  7.66           N 0
+ATOM  19039   CA MET A1214      -2.469  44.979  -3.052  0.00  0.00           C 0
+ATOM  19046   CG MET A1214      -1.951  45.472  -5.496  0.00  0.00           C 0
+ATOM  19062    O GLN A1215      -1.822  47.472   0.607  0.00  0.00           O 0
+ATOM  20414    C PHE A1297       3.358  44.805  -4.516  0.00  0.00           C 0
+ATOM  19042   CB MET A1214      -2.823  45.818  -4.290  0.00  0.00           C 0
+ATOM  19049   SD MET A1214      -1.885  46.815  -6.713  0.00  0.00           S 0
+ATOM  19041    C MET A1214      -3.047  45.597  -1.762  0.00  0.00           C 0
+ATOM  19045    O MET A1214      -3.796  46.575  -1.801  0.53  2.14           O 0
+ATOM  20483  NE2 GLN A1301       6.017  47.430  -2.620  0.00  0.00           N 0
+ATOM  21847   CZ ARG A1389       1.636  48.226   2.160  0.00  0.00           C 0
+ATOM  21836   CD ARG A1389       3.554  49.115   3.506  0.00  0.00           C 0
+ATOM  21839   NE ARG A1389       2.309  49.213   2.726  0.44  3.28           N 0
+ATOM  21764    O VAL A1385       6.872  46.202   2.478  0.50  3.21           O 0
+ATOM  20420  CD1 PHE A1297       4.182  42.559  -0.508  0.00  0.00           C 0
+TER
+END

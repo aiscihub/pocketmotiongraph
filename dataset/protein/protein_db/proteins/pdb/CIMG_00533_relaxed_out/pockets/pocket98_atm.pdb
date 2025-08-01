@@ -1,0 +1,60 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    98:
+HEADER 0  - Pocket Score                      : -0.3372
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    51
+HEADER 3  - Mean alpha-sphere radius          : 3.8862
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4241
+HEADER 5  - Mean B-factor of pocket residues  : 0.9629
+HEADER 6  - Hydrophobicity Score              : -11.4706
+HEADER 7  - Polarity Score                    :    12
+HEADER 8  - Amino Acid based volume Score     : 4.1176
+HEADER 9  - Pocket volume (Monte Carlo)       : 613.8706
+HEADER 10 - Pocket volume (convex hull)       : 100.0012
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  18203   CA PRO A1165      38.725  -7.616  -0.813  0.00  0.00           C 0
+ATOM  18195    O THR A1164      40.311  -5.756  -2.118  0.54  2.14           O 0
+ATOM  18181    O GLU A1163      42.694  -8.527  -2.930  0.54  5.36           O 0
+ATOM  18178   CB GLU A1163      42.440  -6.727  -5.567  0.00  0.00           C 0
+ATOM  18187  OE2 GLU A1163      40.459  -5.627  -7.207  0.69  8.57           O 0
+ATOM  18284    O ALA A1169      34.924  -0.992  -7.865  0.69  4.29           O 0
+ATOM  18233  NH1 ARG A1166      39.670   0.077  -4.765  0.00  5.47           N 0
+ATOM  18186  OE1 GLU A1163      41.877  -4.698  -8.607  0.00  0.00           O 0
+ATOM  18228   CD ARG A1166      38.384  -1.823  -3.022  0.00  0.00           C 0
+ATOM  14592   NZ LYS A 932      36.967 -12.290  -4.387  0.00  0.00           N 0
+ATOM  18206   CB PRO A1165      38.338  -8.844   0.019  0.00  0.00           C 0
+ATOM  14567  NH1 ARG A 931      34.593  -5.471  -5.657  0.28  5.47           N 0
+ATOM  18263    O PHE A1168      34.135  -2.317  -4.292  0.73  3.21           O 0
+ATOM  15059   CB PRO A 961      36.569  -4.570 -11.388  0.00  0.00           C 0
+ATOM  15056   CA PRO A 961      35.341  -3.676 -11.187  0.00  0.00           C 0
+ATOM  15063   CG PRO A 961      36.010  -5.978 -11.213  0.00  0.00           C 0
+ATOM  18221   CB ARG A1166      36.717  -3.465  -2.110  0.00  0.00           C 0
+ATOM  15069    N LYS A 962      36.171  -1.366 -11.290  0.60  1.09           N 0
+ATOM  15091    N SER A 963      38.305  -1.226 -13.088  0.78  3.28           N 0
+ATOM  15074   CB LYS A 962      36.992   0.915 -10.819  0.00  0.00           C 0
+ATOM  15100   OG SER A 963      39.403  -3.707 -13.105  0.50  6.43           O 0
+ATOM  15096   CB SER A 963      40.184  -2.683 -13.699  0.00  0.00           C 0
+ATOM  14511   OG SER A 928      35.144 -10.393  -2.508  0.00  0.00           O 0
+ATOM  14589   CE LYS A 932      35.963 -11.593  -5.239  0.00  0.00           C 0
+ATOM  14484  OD2 ASP A 926      36.987 -12.166  -0.698  0.00  0.00           O 0
+ATOM  18213   CD PRO A1165      40.667  -8.393   0.348  0.00  0.00           C 0
+ATOM  18149   CB PRO A1161      45.538 -11.916  -2.144  0.00  0.00           C 0
+ATOM  18082  OE2 GLU A1156      42.608 -18.394  -2.657  0.68  5.36           O 0
+ATOM  14433   CD LYS A 923      41.643 -18.449   0.688  0.00  0.00           C 0
+ATOM  14439   NZ LYS A 923      43.834 -17.902  -0.386  0.10  5.47           N 0
+ATOM  14570  NH2 ARG A 931      35.103  -7.621  -5.859  0.53  6.56           N 0
+ATOM  18216    N ARG A1166      37.223  -5.756  -1.309  0.49  1.09           N 0
+ATOM  18171  OG1 THR A1162      44.156 -10.391  -7.839  0.76  6.43           O 0
+ATOM  18182   CG GLU A1163      42.805  -6.181  -6.959  0.00  0.00           C 0
+ATOM  18185   CD GLU A1163      41.623  -5.472  -7.655  0.00  0.00           C 0
+ATOM  18173    N GLU A1163      44.309  -8.346  -5.237  0.00  0.00           N 0
+ATOM  18146   CA PRO A1161      46.088 -12.142  -3.556  0.00  0.00           C 0
+ATOM  18159    N THR A1162      45.782 -10.755  -5.555  0.55  1.09           N 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    57:
+HEADER 0  - Pocket Score                      : -0.1093
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0711
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7352
+HEADER 5  - Mean B-factor of pocket residues  : 0.9397
+HEADER 6  - Hydrophobicity Score              : 23.4000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.6301
+HEADER 10 - Pocket volume (convex hull)       : 17.1416
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8947
+ATOM   7900   CG GLN A 507     -12.497  -7.280  14.147  0.00  0.00           C 0
+ATOM   7891    N GLN A 507     -12.119  -4.177  14.142  0.00  0.00           N 0
+ATOM   7875   CB TYR A 506     -14.166  -2.276  15.857  0.00  0.00           C 0
+ATOM   7874    C TYR A 506     -11.985  -3.042  14.838  0.00  0.00           C 0
+ATOM   7893   CA GLN A 507     -11.044  -5.175  14.043  0.00  0.00           C 0
+ATOM   3797  NE2 GLN A 250      -9.526  -9.979  14.632  0.44  7.66           N 0
+ATOM   7956   CB TRP A 510      -8.616  -3.993  17.435  0.00  0.00           C 0
+ATOM   7878    O TYR A 506     -10.961  -2.799  15.471  0.65  1.07           O 0
+ATOM   7961  CD1 TRP A 510      -7.758  -5.623  19.190  0.00  0.00           C 0
+ATOM   7823   CG LYS A 503     -17.144  -7.527  14.157  0.00  0.00           C 0
+ATOM   7904  NE2 GLN A 507     -13.500  -9.502  13.911  0.77  1.09           N 0
+ATOM   7829   CE LYS A 503     -16.889  -9.969  14.742  0.00  0.00           C 0
+ATOM   7822    O LYS A 503     -14.868  -5.106  13.445  0.00  0.00           O 0
+ATOM   7960   CG TRP A 510      -8.361  -4.470  18.825  0.00  0.00           C 0
+ATOM   7816   CA LYS A 503     -17.258  -5.086  13.348  0.00  0.00           C 0
+ATOM   7882  CD2 TYR A 506     -16.422  -1.130  16.078  0.00  0.00           C 0
+ATOM   7963  CD2 TRP A 510      -8.751  -3.807  20.060  0.00  0.00           C 0
+ATOM   7965  CE3 TRP A 510      -9.368  -2.575  20.360  0.00  0.00           C 0
+ATOM   7964  CE2 TRP A 510      -8.401  -4.653  21.154  0.00  0.00           C 0
+ATOM   7967  NE1 TRP A 510      -7.800  -5.750  20.567  0.00  0.00           N 0
+TER
+END

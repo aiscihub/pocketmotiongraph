@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0228
+HEADER 1  - Drug Score                        : 0.0214
+HEADER 2  - Number of alpha spheres           :    59
+HEADER 3  - Mean alpha-sphere radius          : 3.8022
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4309
+HEADER 5  - Mean B-factor of pocket residues  : 0.8816
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 363.4148
+HEADER 10 - Pocket volume (convex hull)       : 72.9339
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.3559
+ATOM   8866  NH1 ARG A 569      -9.631   6.236  12.537  0.37  5.47           N 0
+ATOM   8861   CD ARG A 569      -9.164   6.113   9.663  0.00  0.00           C 0
+ATOM   8803   CG GLU A 565      -9.775  10.940   8.388  0.00  0.00           C 0
+ATOM   8864   NE ARG A 569      -8.275   5.688  10.756  0.66  6.56           N 0
+ATOM   8872   CZ ARG A 569      -8.509   5.788  12.051  0.00  0.00           C 0
+ATOM   8092  CG2 VAL A 519      -3.280   9.659  14.445  0.00  0.00           C 0
+ATOM   8792  OG1 THR A 564      -5.794  11.978  10.051  0.74  8.57           O 0
+ATOM   8088  CG1 VAL A 519      -4.726  11.174  15.756  0.00  0.00           C 0
+ATOM   9639  CD1 ILE A 618      -8.378  10.732  17.849  0.00  0.00           C 0
+ATOM   8794    N GLU A 565      -7.169  11.250   7.130  0.00  0.00           N 0
+ATOM   8784    C THR A 564      -5.848  11.075   7.210  0.00  0.00           C 0
+ATOM   8742   CG MET A 561      -6.746  15.221  14.000  0.00  0.00           C 0
+ATOM  10188   CE MET A 650     -10.949  14.705  15.216  0.00  0.00           C 0
+ATOM   8741    O MET A 561      -6.831  14.520  10.644  0.69  1.07           O 0
+ATOM   8807  OE1 GLU A 565     -11.306  12.293   9.630  0.00  0.00           O 0
+ATOM   8737    C MET A 561      -7.449  15.552  10.913  0.00  0.00           C 0
+ATOM   8750    N SER A 562      -8.609  15.871  10.336  0.00  0.00           N 0
+ATOM  21005  OE1 GLU A1335      -2.307   6.198   9.387  0.55  5.36           O 0
+ATOM   8787    O THR A 564      -5.307  10.059   6.777  0.62  2.14           O 0
+ATOM   8844   CA GLY A 568      -5.168   5.867   5.559  0.00  0.00           C 0
+ATOM   8858   CG ARG A 569      -8.571   5.702   8.311  0.00  0.00           C 0
+ATOM   8796   CA GLU A 565      -8.108  10.265   6.594  0.00  0.00           C 0
+ATOM   8745   SD MET A 561      -7.341  14.937  15.691  0.00  0.00           S 0
+ATOM   9578   CE LYS A 615     -12.869  11.481  12.277  0.00  0.00           C 0
+ATOM   9572   CG LYS A 615     -12.960  11.440  14.735  0.00  0.00           C 0
+ATOM   9555  CG2 ILE A 614     -10.303   7.396  17.601  0.00  0.00           C 0
+ATOM   9507    O ASP A 611     -14.473   8.405  15.549  0.59  1.07           O 0
+ATOM   8785   CB THR A 564      -4.647  11.964   9.226  0.00  0.00           C 0
+ATOM  21048  ND2 ASN A1339       0.086   9.545  11.818  0.76  1.09           N 0
+ATOM   8869  NH2 ARG A 569      -7.593   5.412  12.901  0.56  6.56           N 0
+ATOM   8031   CB SER A 515      -2.040   4.166  13.030  0.00  0.00           C 0
+ATOM   8085   CB VAL A 519      -3.729  10.011  15.869  0.00  0.00           C 0
+ATOM   8045  CG2 THR A 516      -6.690   5.102  17.731  0.00  0.00           C 0
+ATOM   8044    O THR A 516      -4.108   7.157  18.211  0.56  2.14           O 0
+ATOM   8030    C SER A 515      -2.365   5.345  15.231  0.00  0.00           C 0
+ATOM   8034    O SER A 515      -2.140   6.533  15.461  0.00  0.00           O 0
+ATOM   8039   CA THR A 516      -4.412   5.385  16.618  0.00  0.00           C 0
+TER
+END

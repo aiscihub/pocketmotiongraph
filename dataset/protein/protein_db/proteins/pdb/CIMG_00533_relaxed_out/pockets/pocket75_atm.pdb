@@ -1,0 +1,68 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    75:
+HEADER 0  - Pocket Score                      : -0.1591
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    82
+HEADER 3  - Mean alpha-sphere radius          : 4.0367
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5064
+HEADER 5  - Mean B-factor of pocket residues  : 0.9303
+HEADER 6  - Hydrophobicity Score              : 0.5714
+HEADER 7  - Polarity Score                    :    11
+HEADER 8  - Amino Acid based volume Score     : 3.9286
+HEADER 9  - Pocket volume (Monte Carlo)       : 651.6213
+HEADER 10 - Pocket volume (convex hull)       : 131.9014
+HEADER 11 - Charge Score                      :    -4
+HEADER 12 - Local hydrophobic density Score   : 18.8462
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.3171
+ATOM  17429    O ASP A1114       5.335 -39.638  -0.229  0.54  4.29           O 0
+ATOM  17426   CB ASP A1114       4.379 -39.265  -3.465  0.00  0.00           C 0
+ATOM  17425    C ASP A1114       5.802 -39.514  -1.362  0.00  0.00           C 0
+ATOM  17241  OE2 GLU A1100       3.698 -47.611  -4.010  0.52  9.64           O 0
+ATOM  17240  OE1 GLU A1100       3.318 -49.212  -2.537  0.67  8.57           O 0
+ATOM  17567  OE1 GLU A1125       3.067 -46.669   3.255  0.00  0.00           O 0
+ATOM  17239   CD GLU A1100       4.088 -48.451  -3.167  0.00  0.00           C 0
+ATOM  17568  OE2 GLU A1125       5.162 -47.419   3.352  0.00  0.00           O 0
+ATOM  17563   CG GLU A1125       4.636 -45.351   4.435  0.00  0.00           C 0
+ATOM  17529    O LYS A1123       3.349 -40.257   4.369  0.77  3.21           O 0
+ATOM  17236   CG GLU A1100       5.600 -48.599  -2.909  0.00  0.00           C 0
+ATOM  17512   OG SER A1121       0.771 -39.827   2.632  0.49  5.36           O 0
+ATOM  17566   CD GLU A1125       4.268 -46.580   3.596  0.00  0.00           C 0
+ATOM  17227    N GLU A1100       8.568 -47.808  -2.814  0.64  2.19           N 0
+ATOM  17216    O GLY A1098      10.256 -49.022   0.616  0.38  8.57           O 0
+ATOM  17554    N GLU A1125       6.165 -43.022   5.384  0.49  1.09           N 0
+ATOM  17433    N VAL A1115       6.952 -40.093  -1.728  0.74  1.09           N 0
+ATOM  17440    O VAL A1115       8.234 -41.016   1.484  0.48  5.36           O 0
+ATOM  17559   CB GLU A1125       6.027 -45.452   5.083  0.00  0.00           C 0
+ATOM  17582  NE2 GLN A1126      11.055 -47.360   3.391  0.76  4.37           N 0
+ATOM  17578   CG GLN A1126      10.371 -45.820   5.198  0.00  0.00           C 0
+ATOM  17569    N GLN A1126       8.643 -43.718   6.349  0.00  0.00           N 0
+ATOM  17219   CA ALA A1099      10.435 -47.080  -1.371  0.00  0.00           C 0
+ATOM  17435   CA VAL A1115       7.759 -40.993  -0.878  0.00  0.00           C 0
+ATOM  17614  NE1 TRP A1128      10.907 -41.768   2.631  0.00  0.00           N 0
+ATOM  17308   CG ASP A1106       4.778 -43.497 -11.735  0.00  0.00           C 0
+ATOM  17363  OE2 GLU A1110       3.280 -36.249 -11.030  0.86  6.43           O 0
+ATOM  17304   CB ASP A1106       5.836 -42.416 -12.000  0.00  0.00           C 0
+ATOM  17309  OD1 ASP A1106       3.740 -43.510 -12.436  0.71  5.36           O 0
+ATOM  17369   CB TYR A1111       8.020 -40.640  -7.906  0.00  0.00           C 0
+ATOM  17310  OD2 ASP A1106       5.052 -44.354 -10.871  0.15  8.57           O 0
+ATOM  17301   CA ASP A1106       5.634 -41.644 -13.315  0.00  0.00           C 0
+ATOM  17445  CG2 VAL A1115       8.573 -42.475  -2.765  0.00  0.00           C 0
+ATOM  17380  CE2 TYR A1111       8.673 -43.964  -6.154  0.00  0.00           C 0
+ATOM  17376  CD2 TYR A1111       8.016 -42.939  -6.857  0.00  0.00           C 0
+ATOM  17232   CB GLU A1100       6.457 -48.117  -4.090  0.00  0.00           C 0
+ATOM  17441  CG1 VAL A1115      10.047 -42.165  -0.828  0.00  0.00           C 0
+ATOM  17222   CB ALA A1099      10.906 -45.743  -1.948  0.00  0.00           C 0
+ATOM  17432  OD2 ASP A1114       3.004 -38.710  -5.339  0.44  6.43           O 0
+ATOM  17311    N ASN A1107       6.356 -39.347 -12.922  0.59  2.19           N 0
+ATOM  17618  CZ2 TRP A1128      11.995 -43.645   1.277  0.00  0.00           C 0
+ATOM  17372    O TYR A1111       7.816 -39.829  -4.556  0.00  0.00           O 0
+ATOM  17319    O ASN A1107       7.729 -38.295 -10.510  0.62  1.07           O 0
+ATOM  17364    N TYR A1111       7.051 -38.441  -7.627  0.00  0.00           N 0
+ATOM  17366   CA TYR A1111       7.348 -39.680  -6.912  0.00  0.00           C 0
+ATOM  17354   CB GLU A1110       5.171 -36.310  -8.893  0.00  0.00           C 0
+TER
+END

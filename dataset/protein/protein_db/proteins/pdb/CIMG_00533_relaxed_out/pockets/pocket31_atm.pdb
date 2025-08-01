@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0471
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8157
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5351
+HEADER 5  - Mean B-factor of pocket residues  : 0.9679
+HEADER 6  - Hydrophobicity Score              : 34.8333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 187.6296
+HEADER 10 - Pocket volume (convex hull)       : 3.3001
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   9977   CB PHE A 639     -16.589  25.149  28.833  0.00  0.00           C 0
+ATOM   9982  CD1 PHE A 639     -16.736  22.618  28.779  0.00  0.00           C 0
+ATOM   9981   CG PHE A 639     -15.954  23.783  28.652  0.00  0.00           C 0
+ATOM   9813   CZ PHE A 628     -12.811  23.803  32.159  0.00  0.00           C 0
+ATOM   9931   CA PRO A 636     -19.815  25.888  31.780  0.00  0.00           C 0
+ATOM   9934   CB PRO A 636     -20.779  25.213  32.763  0.00  0.00           C 0
+ATOM  10008  CE2 PHE A 640     -20.914  21.331  30.244  0.00  0.00           C 0
+ATOM   9938   CG PRO A 636     -20.325  25.739  34.122  0.00  0.00           C 0
+ATOM   9895    C ARG A 634     -15.598  29.265  33.324  0.00  0.00           C 0
+ATOM   9899    O ARG A 634     -15.846  29.005  34.496  0.69  7.50           O 0
+ATOM   9809  CE1 PHE A 628     -12.137  24.863  32.789  0.00  0.00           C 0
+ATOM   9923    O GLU A 635     -18.095  27.783  30.717  0.00  0.00           O 0
+ATOM   9941   CD PRO A 636     -19.872  27.162  33.810  0.00  0.00           C 0
+ATOM   9930    N PRO A 636     -19.375  27.122  32.440  0.00  0.00           N 0
+ATOM   9893   CA ARG A 634     -14.140  29.404  32.852  0.00  0.00           C 0
+ATOM   9919    C GLU A 635     -18.488  27.967  31.873  0.00  0.00           C 0
+TER
+END

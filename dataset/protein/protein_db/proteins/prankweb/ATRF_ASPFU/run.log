@@ -1,0 +1,73 @@
+[INFO] Console - predicting pockets for proteins from dataset [ATRF_ASPFU_relaxed.pdb]
+[INFO] PredictPocketsRoutine - outdir: ../dataset/proteins/prankweb/ATRF_ASPFU
+[INFO] Model - Loading model from directory (v3 format): /home/zhenli/git/p2rank_2.5/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [ATRF_ASPFU_relaxed.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [ATRF_ASPFU_relaxed.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [ATRF_ASPFU_relaxed.pdb] (1/1)
+[INFO] Protein - loading protein [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/ATRF_ASPFU_relaxed.pdb]
+[INFO] PdbUtils - loading file [../dataset/proteins/pdb/ATRF_ASPFU_relaxed.pdb]
+[INFO] Struct - all groups in chain A: 1547
+[INFO] Struct - all groups in chain A: 1547
+[INFO] Struct - 1547 groups in chain A
+[INFO] Protein - structure atoms: 24301
+[INFO] Protein - protein   atoms: 11953
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 23729
+[INFO] Protein - exposed protein atoms: 7832 of 11953
+[INFO] SLinkClusterer - clustering [427] elements
+[INFO] SLinkClusterer - clusters: [id:5( 1 ), id:22( 5 ), id:34( 20 ), id:42( 6 ), id:46( 9 ), id:61( 1 ), id:62( 7 ), id:69( 1 ), id:77( 4 ), id:78( 6 ), id:79( 2 ), id:80( 1 ), id:86( 2 ), id:127( 1 ), id:144( 2 ), id:152( 26 ), id:156( 2 ), id:158( 4 ), id:161( 11 ), id:172( 7 ), id:175( 1 ), id:180( 2 ), id:210( 3 ), id:213( 9 ), id:215( 4 ), id:221( 9 ), id:224( 1 ), id:234( 1 ), id:241( 11 ), id:248( 7 ), id:251( 9 ), id:257( 9 ), id:260( 2 ), id:261( 1 ), id:262( 1 ), id:264( 9 ), id:265( 3 ), id:266( 3 ), id:272( 1 ), id:275( 4 ), id:278( 3 ), id:293( 20 ), id:299( 1 ), id:312( 55 ), id:318( 1 ), id:319( 1 ), id:321( 4 ), id:322( 6 ), id:340( 1 ), id:341( 4 ), id:349( 3 ), id:350( 4 ), id:354( 49 ), id:357( 1 ), id:379( 1 ), id:389( 1 ), id:397( 5 ), id:398( 3 ), id:403( 32 ), id:415( 12 ), id:420( 4 ), id:425( 6 ), id:426( 2 )]
+[INFO] SLinkClusterer - clusters together: 427 / 427
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 23729
+[INFO] PocketPredictor - LIGANDABLE POINTS: 427
+[INFO] PocketPredictor - CLUSTERS: 63
+[INFO] PocketPredictor - FILTERED CLUSTERS: 38
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  36   points:  55   score:   28.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  51   points:  49   score:   20.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  49   points:  32   score:   10.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  54   points:  26   score:    9.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  22   points:  20   score:    7.0
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  25   points:  20   score:    6.3
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  24   points:  11   score:    4.6
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  20   points:   9   score:    3.9
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  29   points:   9   score:    3.8
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  37   points:  11   score:    3.8
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  18   points:   9   score:    3.6
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  25   points:   9   score:    3.6
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  16   points:  12   score:    3.4
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  21   points:   9   score:    3.1
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  21   points:   7   score:    3.1
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  23   points:   6   score:    3.0
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  24   points:   6   score:    2.5
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  32   points:   9   score:    2.5
+[INFO] PocketPredictor - pocket19 -  surf_atoms:   9   points:   7   score:    2.5
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  26   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  14   points:   6   score:    2.4
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  17   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  19   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  17   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket25 -  surf_atoms:  25   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket26 -  surf_atoms:   6   points:   3   score:    1.9
+[INFO] PocketPredictor - pocket27 -  surf_atoms:  10   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket28 -  surf_atoms:  14   points:   3   score:    1.7
+[INFO] PocketPredictor - pocket29 -  surf_atoms:  14   points:   6   score:    1.7
+[INFO] PocketPredictor - pocket30 -  surf_atoms:  17   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket31 -  surf_atoms:  18   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket32 -  surf_atoms:  13   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket33 -  surf_atoms:   8   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket34 -  surf_atoms:  14   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket35 -  surf_atoms:  18   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket36 -  surf_atoms:  10   points:   4   score:    1.1
+[INFO] PocketPredictor - pocket37 -  surf_atoms:   7   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket38 -  surf_atoms:   8   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/ATRF_ASPFU_relaxed.pdb] to [../dataset/proteins/prankweb/ATRF_ASPFU/visualizations/data/ATRF_ASPFU_relaxed.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 1.718 seconds
+[INFO] Console - results saved to directory [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/prankweb/ATRF_ASPFU]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 2.084 seconds.

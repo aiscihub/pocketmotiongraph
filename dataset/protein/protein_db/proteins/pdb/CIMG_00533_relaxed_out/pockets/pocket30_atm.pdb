@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0430
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.7075
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4902
+HEADER 5  - Mean B-factor of pocket residues  : 0.9811
+HEADER 6  - Hydrophobicity Score              : -3.7500
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.0343
+HEADER 10 - Pocket volume (convex hull)       : 7.6910
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1600
+ATOM   8526   NZ LYS A 547      -9.590  35.455  27.583  0.77  3.28           N 0
+ATOM   8401  ND2 ASN A 539     -11.139  39.033  31.661  0.00  0.00           N 0
+ATOM   9869   CA ARG A 633     -13.615  32.042  30.073  0.00  0.00           C 0
+ATOM   9847    O GLY A 631      -8.610  32.617  29.744  0.28  8.57           O 0
+ATOM  11282  OE1 GLU A 718     -11.873  34.171  26.939  0.51  2.14           O 0
+ATOM   9867    N ARG A 633     -12.582  31.717  29.078  0.00  0.00           N 0
+ATOM   9872   CB ARG A 633     -14.710  32.833  29.346  0.00  0.00           C 0
+ATOM   9876   CG ARG A 633     -15.829  33.294  30.282  0.00  0.00           C 0
+ATOM   8404  OD1 ASN A 539      -9.876  38.740  29.898  0.50  3.21           O 0
+ATOM   8370    O THR A 537      -4.960  36.885  30.527  0.04  9.64           O 0
+ATOM  11340  OE1 GLN A 722     -15.518  38.992  31.215  0.40  8.57           O 0
+ATOM  11333   CG GLN A 722     -16.315  38.626  28.963  0.00  0.00           C 0
+ATOM   8400   CG ASN A 539     -10.049  39.289  30.977  0.00  0.00           C 0
+ATOM  11383   OH TYR A 724     -12.733  38.954  26.344  0.61  1.07           O 0
+ATOM  11277    O GLU A 718     -15.457  35.823  26.378  0.00  0.00           O 0
+ATOM  11336   CD GLN A 722     -16.314  38.432  30.478  0.00  0.00           C 0
+ATOM   9879   CD ARG A 633     -16.749  34.251  29.526  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0991
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9439
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4972
+HEADER 5  - Mean B-factor of pocket residues  : 0.9892
+HEADER 6  - Hydrophobicity Score              : 37.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 343.6707
+HEADER 10 - Pocket volume (convex hull)       : 18.5312
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2273
+ATOM  23918  NH2 ARG A1518      15.752  30.466  39.702  0.00  0.00           N 0
+ATOM  23921   CZ ARG A1518      16.835  30.209  40.383  0.00  0.00           C 0
+ATOM  23915  NH1 ARG A1518      16.709  29.472  41.452  0.00  0.00           N 0
+ATOM  23846  CG2 VAL A1515      19.066  24.689  35.670  0.00  0.00           C 0
+ATOM  23842  CG1 VAL A1515      20.806  26.181  36.549  0.00  0.00           C 0
+ATOM  23913   NE ARG A1518      18.006  30.691  39.997  0.48  6.56           N 0
+ATOM  23836   CA VAL A1515      19.537  26.844  34.430  0.00  0.00           C 0
+ATOM  23822    O PHE A1514      17.708  28.151  32.801  0.39  9.64           O 0
+ATOM  23910   CD ARG A1518      19.293  30.519  40.700  0.00  0.00           C 0
+ATOM  23850    N ARG A1516      20.029  29.225  34.526  0.62  3.28           N 0
+ATOM  23859   CG ARG A1516      19.105  31.963  33.580  0.00  0.00           C 0
+ATOM  23862   CD ARG A1516      18.383  33.304  33.763  0.00  0.00           C 0
+ATOM  23865   NE ARG A1516      17.463  33.584  32.644  0.00  0.00           N 0
+ATOM  23867  NH1 ARG A1516      16.667  35.606  33.403  0.00  0.00           N 0
+ATOM  23855   CB ARG A1516      20.023  31.689  34.781  0.00  0.00           C 0
+ATOM  23873   CZ ARG A1516      16.685  34.647  32.518  0.00  0.00           C 0
+TER
+END

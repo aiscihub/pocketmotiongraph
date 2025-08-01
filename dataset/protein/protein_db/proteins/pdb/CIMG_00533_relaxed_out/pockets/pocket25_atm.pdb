@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0284
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9056
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5797
+HEADER 5  - Mean B-factor of pocket residues  : 0.9809
+HEADER 6  - Hydrophobicity Score              : 41.8571
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.7499
+HEADER 10 - Pocket volume (convex hull)       : 12.0401
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   8370    O THR A 537      -4.960  36.885  30.527  0.04  9.64           O 0
+ATOM   8363    N THR A 537      -2.623  35.174  30.027  0.00  0.00           N 0
+ATOM   8358   CA GLY A 536      -1.736  34.030  32.043  0.00  0.00           C 0
+ATOM   8356    N GLY A 536      -1.882  32.764  31.320  0.54  1.09           N 0
+ATOM   9911  NH2 ARG A 634      -7.107  28.583  34.485  0.41  4.37           N 0
+ATOM   8352  CE2 PHE A 535      -1.564  28.500  33.773  0.00  0.00           C 0
+ATOM   8348  CD2 PHE A 535      -1.411  28.688  32.389  0.00  0.00           C 0
+ATOM   8354   CZ PHE A 535      -0.770  29.232  34.672  0.00  0.00           C 0
+ATOM   9843   CA GLY A 631      -7.048  30.847  30.129  0.00  0.00           C 0
+ATOM   9823    O LEU A 629      -3.555  28.183  29.764  0.60  1.07           O 0
+ATOM   9914   CZ ARG A 634      -8.286  28.754  35.016  0.00  0.00           C 0
+ATOM   9847    O GLY A 631      -8.610  32.617  29.744  0.28  8.57           O 0
+ATOM   9906   NE ARG A 634      -9.352  28.840  34.243  0.47  1.09           N 0
+ATOM   9900   CG ARG A 634     -11.684  29.197  33.510  0.00  0.00           C 0
+ATOM   9903   CD ARG A 634     -10.747  28.966  34.694  0.00  0.00           C 0
+ATOM   9856    O LEU A 632     -11.176  30.635  30.467  0.50  3.21           O 0
+TER
+END

@@ -1,0 +1,59 @@
+[INFO] Console - predicting pockets for proteins from dataset [SNQ2_CANGA_relaxed.pdb]
+[INFO] PredictPocketsRoutine - outdir: ../dataset/proteins/prankweb/SNQ2_CANGA
+[INFO] Model - Loading model from directory (v3 format): /home/zhenli/git/p2rank_2.5/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [SNQ2_CANGA_relaxed.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [SNQ2_CANGA_relaxed.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [SNQ2_CANGA_relaxed.pdb] (1/1)
+[INFO] Protein - loading protein [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/SNQ2_CANGA_relaxed.pdb]
+[INFO] PdbUtils - loading file [../dataset/proteins/pdb/SNQ2_CANGA_relaxed.pdb]
+[INFO] Struct - all groups in chain A: 1507
+[INFO] Struct - all groups in chain A: 1507
+[INFO] Struct - 1507 groups in chain A
+[INFO] Protein - structure atoms: 23794
+[INFO] Protein - protein   atoms: 11721
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 22046
+[INFO] Protein - exposed protein atoms: 7522 of 11721
+[INFO] SLinkClusterer - clustering [504] elements
+[INFO] SLinkClusterer - clusters: [id:70( 37 ), id:92( 2 ), id:98( 11 ), id:114( 110 ), id:138( 1 ), id:151( 1 ), id:152( 1 ), id:153( 9 ), id:167( 1 ), id:171( 4 ), id:176( 1 ), id:182( 2 ), id:185( 3 ), id:221( 1 ), id:234( 1 ), id:259( 8 ), id:316( 11 ), id:318( 2 ), id:337( 61 ), id:338( 2 ), id:339( 1 ), id:343( 84 ), id:357( 6 ), id:360( 3 ), id:365( 2 ), id:367( 1 ), id:373( 7 ), id:376( 9 ), id:385( 5 ), id:386( 1 ), id:388( 1 ), id:408( 27 ), id:412( 13 ), id:416( 2 ), id:422( 7 ), id:424( 6 ), id:426( 3 ), id:427( 1 ), id:429( 1 ), id:430( 1 ), id:431( 1 ), id:432( 1 ), id:434( 2 ), id:435( 1 ), id:450( 1 ), id:455( 24 ), id:459( 4 ), id:461( 1 ), id:468( 1 ), id:471( 1 ), id:474( 3 ), id:475( 1 ), id:476( 1 ), id:478( 1 ), id:489( 1 ), id:492( 2 ), id:495( 1 ), id:499( 1 ), id:500( 4 ), id:503( 2 )]
+[INFO] SLinkClusterer - clusters together: 504 / 504
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 22046
+[INFO] PocketPredictor - LIGANDABLE POINTS: 504
+[INFO] PocketPredictor - CLUSTERS: 60
+[INFO] PocketPredictor - FILTERED CLUSTERS: 24
+[INFO] PocketPredictor - pocket 1 -  surf_atoms: 105   points: 110   score:   40.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms: 105   points:  84   score:   25.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  57   points:  61   score:   21.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  67   points:  37   score:   13.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  30   points:  24   score:    9.0
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  37   points:  27   score:    7.4
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  36   points:  13   score:    5.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  28   points:   9   score:    4.0
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  34   points:  11   score:    3.9
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  21   points:  11   score:    3.2
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  16   points:   6   score:    2.9
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  22   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  23   points:   3   score:    2.6
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  17   points:   9   score:    2.5
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  21   points:   6   score:    2.3
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  31   points:   7   score:    2.1
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  21   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  14   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  17   points:   7   score:    1.8
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  19   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  20   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket22 -  surf_atoms:   7   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket23 -  surf_atoms:   9   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  17   points:   3   score:    1.2
+[INFO] PredictionVisualizer - copying [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/SNQ2_CANGA_relaxed.pdb] to [../dataset/proteins/prankweb/SNQ2_CANGA/visualizations/data/SNQ2_CANGA_relaxed.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 1.898 seconds
+[INFO] Console - results saved to directory [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/prankweb/SNQ2_CANGA]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 2.296 seconds.

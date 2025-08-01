@@ -1,0 +1,54 @@
+[INFO] Console - predicting pockets for proteins from dataset [MDR2_TRIRC_relaxed.pdb]
+[INFO] PredictPocketsRoutine - outdir: ../dataset/proteins/prankweb/MDR2_TRIRC
+[INFO] Model - Loading model from directory (v3 format): /home/zhenli/git/p2rank_2.5/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MDR2_TRIRC_relaxed.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MDR2_TRIRC_relaxed.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MDR2_TRIRC_relaxed.pdb] (1/1)
+[INFO] Protein - loading protein [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/MDR2_TRIRC_relaxed.pdb]
+[INFO] PdbUtils - loading file [../dataset/proteins/pdb/MDR2_TRIRC_relaxed.pdb]
+[INFO] Struct - all groups in chain A: 1331
+[INFO] Struct - all groups in chain A: 1331
+[INFO] Struct - 1331 groups in chain A
+[INFO] Protein - structure atoms: 20638
+[INFO] Protein - protein   atoms: 10052
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 20012
+[INFO] Protein - exposed protein atoms: 6606 of 10052
+[INFO] SLinkClusterer - clustering [245] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:2( 2 ), id:20( 1 ), id:27( 86 ), id:28( 1 ), id:30( 2 ), id:32( 1 ), id:44( 10 ), id:45( 2 ), id:49( 2 ), id:58( 1 ), id:90( 5 ), id:92( 1 ), id:93( 1 ), id:101( 8 ), id:108( 1 ), id:115( 3 ), id:117( 1 ), id:121( 4 ), id:133( 1 ), id:141( 9 ), id:161( 2 ), id:168( 4 ), id:170( 22 ), id:176( 1 ), id:178( 1 ), id:179( 3 ), id:181( 3 ), id:185( 11 ), id:186( 2 ), id:188( 1 ), id:190( 4 ), id:197( 1 ), id:198( 6 ), id:201( 4 ), id:219( 14 ), id:225( 9 ), id:232( 7 ), id:236( 2 ), id:238( 1 ), id:243( 1 ), id:244( 3 )]
+[INFO] SLinkClusterer - clusters together: 245 / 245
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 20012
+[INFO] PocketPredictor - LIGANDABLE POINTS: 245
+[INFO] PocketPredictor - CLUSTERS: 42
+[INFO] PocketPredictor - FILTERED CLUSTERS: 19
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  95   points:  86   score:   33.8
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  36   points:  22   score:    6.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  33   points:  14   score:    5.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:  11   score:    4.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  20   points:  10   score:    3.1
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  20   points:   9   score:    3.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  20   points:   8   score:    2.6
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  34   points:   9   score:    2.6
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  18   points:   7   score:    2.3
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  13   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  13   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  14   points:   4   score:    1.7
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  13   points:   5   score:    1.6
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  13   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket15 -  surf_atoms:   9   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  18   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  18   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  20   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  11   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/pdb/MDR2_TRIRC_relaxed.pdb] to [../dataset/proteins/prankweb/MDR2_TRIRC/visualizations/data/MDR2_TRIRC_relaxed.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 1.667 seconds
+[INFO] Console - results saved to directory [/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/prankweb/MDR2_TRIRC]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 2.077 seconds.

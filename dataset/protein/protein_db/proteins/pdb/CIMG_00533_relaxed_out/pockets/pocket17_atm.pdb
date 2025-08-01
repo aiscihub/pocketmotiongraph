@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0134
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0072
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6414
+HEADER 5  - Mean B-factor of pocket residues  : 0.9526
+HEADER 6  - Hydrophobicity Score              : 4.1250
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.0784
+HEADER 10 - Pocket volume (convex hull)       : 2.2333
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM  14667  NE2 GLN A 937      15.854  -9.816  -2.608  0.00  0.00           N 0
+ATOM  14631  CE1 TYR A 935      17.968 -14.331  -3.129  0.00  0.00           C 0
+ATOM  14635   OH TYR A 935      17.562 -16.077  -1.511  0.83  1.07           O 0
+ATOM  16027  OD2 ASP A1022      13.586 -17.203  -2.621  0.72  2.14           O 0
+ATOM  14676   CB GLN A 938      10.995 -15.746  -4.620  0.00  0.00           C 0
+ATOM  14697   CG GLN A 939       8.876 -11.195  -3.798  0.00  0.00           C 0
+ATOM  14671    N GLN A 938      12.950 -14.579  -5.485  0.00  0.00           N 0
+ATOM  14688    N GLN A 939      10.877 -12.644  -5.654  0.00  0.00           N 0
+ATOM  14078  CG2 THR A 899      13.799 -17.834   0.360  0.00  0.00           C 0
+ATOM  14147  OD2 ASP A 903      16.107 -15.512   2.425  0.68  6.43           O 0
+ATOM  14146  OD1 ASP A 903      17.779 -14.758   1.186  0.52  3.21           O 0
+ATOM  14659   CB GLN A 937      14.797 -11.971  -5.170  0.00  0.00           C 0
+ATOM  14663   CG GLN A 937      16.023 -11.303  -4.536  0.00  0.00           C 0
+ATOM  14693   CB GLN A 939       9.871 -10.557  -4.776  0.00  0.00           C 0
+ATOM  14728  CD1 LEU A 941      11.899  -6.806  -3.724  0.00  0.00           C 0
+ATOM  14704  OE1 GLN A 939       9.143  -9.248  -2.378  0.66  7.50           O 0
+ATOM  14666   CD GLN A 937      15.692  -9.955  -3.902  0.00  0.00           C 0
+TER
+END

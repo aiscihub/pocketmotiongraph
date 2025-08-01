@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    86:
+HEADER 0  - Pocket Score                      : -0.1920
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0840
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4808
+HEADER 5  - Mean B-factor of pocket residues  : 0.9176
+HEADER 6  - Hydrophobicity Score              : -30.5556
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 334.2581
+HEADER 10 - Pocket volume (convex hull)       : 22.7667
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0833
+ATOM  15445  OD1 ASP A 984      12.321  -8.623 -30.723  0.69  9.64           O 0
+ATOM  15423   CD ARG A 983      18.304  -8.520 -30.647  0.00  0.00           C 0
+ATOM  15416   CB ARG A 983      16.309  -8.165 -29.140  0.00  0.00           C 0
+ATOM  15393  OD1 ASN A 981      15.433 -13.564 -28.682  0.00  0.00           O 0
+ATOM  15342  OD1 ASP A 978      20.904  -9.437 -28.468  0.00  0.00           O 0
+ATOM  15420   CG ARG A 983      17.840  -8.270 -29.204  0.00  0.00           C 0
+ATOM  13131    O GLU A 838      17.530 -18.118 -35.693  0.58  4.29           O 0
+ATOM  13162   OG SER A 840      18.865 -17.896 -30.008  0.64  1.07           O 0
+ATOM  15390  ND2 ASN A 981      13.873 -14.964 -28.057  0.43  9.84           N 0
+ATOM  13155   CA SER A 840      19.751 -17.813 -32.232  0.00  0.00           C 0
+ATOM  13137  OE2 GLU A 838      17.495 -12.576 -37.038  0.00  0.00           O 0
+ATOM  15428  NH1 ARG A 983      20.014  -9.022 -32.960  0.48  5.47           N 0
+ATOM  13172   CG PRO A 841      21.336 -13.885 -30.872  0.00  0.00           C 0
+ATOM  13158   CB SER A 840      19.030 -18.652 -31.185  0.00  0.00           C 0
+ATOM  15334   CA ASP A 978      20.933 -11.595 -26.713  0.00  0.00           C 0
+ATOM  15340    O ASP A 978      19.958 -13.778 -26.508  0.45  1.07           O 0
+ATOM   6425  NE2 GLN A 419      11.009 -19.000 -30.382  0.00  0.00           N 0
+ATOM  13175   CD PRO A 841      20.584 -15.020 -31.562  0.00  0.00           C 0
+ATOM  13128   CB GLU A 838      17.582 -15.380 -37.377  0.00  0.00           C 0
+ATOM  13146    O GLU A 839      20.621 -16.782 -34.632  0.28  2.14           O 0
+TER
+END

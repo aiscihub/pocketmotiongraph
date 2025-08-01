@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0087
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1323
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6673
+HEADER 5  - Mean B-factor of pocket residues  : 0.9427
+HEADER 6  - Hydrophobicity Score              : -3.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 269.8338
+HEADER 10 - Pocket volume (convex hull)       : 3.7071
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  13291    O ILE A 849      32.554 -17.325 -20.137  0.42  1.07           O 0
+ATOM  13269  ND1 HIS A 847      31.155 -20.714 -25.625  0.49  4.37           N 0
+ATOM  13265    O HIS A 847      32.683 -16.411 -23.739  0.41  5.36           O 0
+ATOM  13328   CD PRO A 851      35.714 -18.950 -18.942  0.00  0.00           C 0
+ATOM  13321   CB PRO A 851      35.400 -21.093 -17.924  0.00  0.00           C 0
+ATOM  16391    O ASN A1046      31.470 -21.673 -18.819  0.66  3.21           O 0
+ATOM  13325   CG PRO A 851      36.445 -20.262 -18.669  0.00  0.00           C 0
+ATOM  16396  OD1 ASN A1046      30.013 -21.573 -23.134  0.00  0.00           O 0
+ATOM  13259   CA HIS A 847      30.885 -17.760 -24.603  0.00  0.00           C 0
+ATOM  16387    C ASN A1046      30.723 -22.647 -18.911  0.00  0.00           C 0
+ATOM  16385   CA ASN A1046      29.907 -22.917 -20.194  0.00  0.00           C 0
+ATOM  16379    O ASP A1045      29.992 -25.711 -20.625  0.00  0.00           O 0
+ATOM  16397    N GLY A1047      30.617 -23.519 -17.908  0.00  0.00           N 0
+ATOM  16399   CA GLY A1047      31.430 -23.475 -16.693  0.00  0.00           C 0
+TER
+END

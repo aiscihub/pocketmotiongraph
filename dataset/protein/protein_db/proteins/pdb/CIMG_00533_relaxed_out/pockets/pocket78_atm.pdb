@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    78:
+HEADER 0  - Pocket Score                      : -0.1636
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2024
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6471
+HEADER 5  - Mean B-factor of pocket residues  : 0.9626
+HEADER 6  - Hydrophobicity Score              : -4.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.0688
+HEADER 10 - Pocket volume (convex hull)       : 3.0338
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM  16693   CA ASP A1066      23.114 -32.737 -12.713  0.00  0.00           C 0
+ATOM  16987    O GLY A1084      19.786 -38.713 -14.431  0.29  1.07           O 0
+ATOM  16986    C GLY A1084      20.755 -39.476 -14.393  0.00  0.00           C 0
+ATOM  16981    N GLY A1084      21.431 -38.518 -12.173  0.49  2.19           N 0
+ATOM  16983   CA GLY A1084      21.682 -39.556 -13.174  0.00  0.00           C 0
+ATOM  16699    O ASP A1066      23.110 -34.604 -11.164  0.53  2.14           O 0
+ATOM  16955   CB ASP A1082      24.839 -37.464  -9.624  0.00  0.00           C 0
+ATOM  16679    O PHE A1065      20.443 -33.129 -13.362  0.31  5.36           O 0
+ATOM  16650  NE2 GLN A1063      18.673 -36.988 -16.508  0.29  4.37           N 0
+ATOM  16701  OD1 ASP A1066      24.697 -31.857 -15.145  0.00  0.00           O 0
+ATOM  16645    O GLN A1063      18.525 -33.595 -16.855  0.29  6.43           O 0
+ATOM  16696   CB ASP A1066      24.523 -32.124 -12.767  0.00  0.00           C 0
+ATOM  16959   CG ASP A1082      26.174 -36.748  -9.399  0.00  0.00           C 0
+ATOM  16960  OD1 ASP A1082      26.169 -35.514  -9.178  0.00  0.00           O 0
+TER
+END

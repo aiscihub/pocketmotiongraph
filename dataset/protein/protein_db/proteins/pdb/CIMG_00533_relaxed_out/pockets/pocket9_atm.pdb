@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0146
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.4845
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3692
+HEADER 5  - Mean B-factor of pocket residues  : 0.9263
+HEADER 6  - Hydrophobicity Score              : 73.1667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 76.7672
+HEADER 10 - Pocket volume (convex hull)       : 0.6140
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   9631    O ILE A 618      -9.244  15.176  21.638  0.00  0.00           O 0
+ATOM   9672   CB VAL A 621      -8.041  14.243  25.260  0.00  0.00           C 0
+ATOM   8150   CB GLN A 523      -4.390  15.229  19.631  0.00  0.00           C 0
+ATOM   9675  CG1 VAL A 621      -6.623  14.422  25.805  0.00  0.00           C 0
+ATOM   9635  CG2 ILE A 618      -8.205  13.717  18.877  0.00  0.00           C 0
+ATOM   9626   CA ILE A 618      -9.633  12.960  20.820  0.00  0.00           C 0
+ATOM   9612    O ILE A 617     -10.780  12.755  23.362  0.00  0.00           O 0
+ATOM   8107  CG2 ILE A 520      -4.620   9.842  22.690  0.00  0.00           C 0
+ATOM   9616  CG2 ILE A 617     -10.670   9.501  23.758  0.00  0.00           C 0
+ATOM   9679  CG2 VAL A 621      -8.641  13.021  25.973  0.00  0.00           C 0
+ATOM   8103    O ILE A 520      -2.876  12.452  21.569  0.00  0.00           O 0
+ATOM   8098   CA ILE A 520      -3.842  10.605  20.379  0.00  0.00           C 0
+ATOM   8174  CG2 VAL A 524      -3.245  13.675  24.715  0.00  0.00           C 0
+TER
+END

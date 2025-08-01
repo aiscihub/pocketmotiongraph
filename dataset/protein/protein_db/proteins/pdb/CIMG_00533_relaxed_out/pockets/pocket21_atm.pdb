@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0191
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8839
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5288
+HEADER 5  - Mean B-factor of pocket residues  : 0.9482
+HEADER 6  - Hydrophobicity Score              : -0.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.0280
+HEADER 10 - Pocket volume (convex hull)       : 8.5101
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   5671  OD1 ASP A 372     -16.096 -34.455 -15.080  0.00  0.00           O 0
+ATOM   5618    O ASP A 369      -9.699 -36.689 -14.238  0.60  6.43           O 0
+ATOM   5281   NZ LYS A 346     -15.082 -34.057 -12.663  0.62  3.28           N 0
+ATOM   5952   NZ LYS A 389     -12.551 -40.466 -17.040  0.00  0.00           N 0
+ATOM   5278   CE LYS A 346     -14.762 -34.681 -11.361  0.00  0.00           C 0
+ATOM   5669    O ASP A 372     -14.219 -33.607 -19.748  0.58  2.14           O 0
+ATOM   5949   CE LYS A 389     -11.667 -39.432 -17.628  0.00  0.00           C 0
+ATOM   5946   CD LYS A 389     -11.610 -39.528 -19.155  0.00  0.00           C 0
+ATOM   5943   CG LYS A 389     -10.724 -38.393 -19.680  0.00  0.00           C 0
+ATOM   5649    O PHE A 371     -11.933 -34.115 -16.840  0.33  1.07           O 0
+ATOM   5663   CA ASP A 372     -14.524 -33.217 -17.386  0.00  0.00           C 0
+ATOM   5666   CB ASP A 372     -15.942 -32.886 -16.893  0.00  0.00           C 0
+ATOM   5914   CB PRO A 387     -14.372 -35.433 -23.308  0.00  0.00           C 0
+ATOM   5630    O LEU A 370     -12.137 -33.524 -12.987  0.00  0.00           O 0
+TER
+END
