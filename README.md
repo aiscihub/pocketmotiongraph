@@ -6,7 +6,7 @@ This repository contains the full codebase, dataset scripts, and trained models 
 
 
 ![arch_diagram.png](./doc/arch_diagram.png)
-## 🚀 Key Features
+##  Key Features
 
 - **Benchmark Dataset**: 4,525 spatiotemporal residue-level graphs from 2 ns MD simulations across 240 druggable pockets from 16 ABC transporters.
 - **End-to-End Framework**: Converts MD trajectories into graphs encoding pocket dynamics, residue interactions, and physicochemical features.
@@ -16,5 +16,5 @@ This repository contains the full codebase, dataset scripts, and trained models 
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
