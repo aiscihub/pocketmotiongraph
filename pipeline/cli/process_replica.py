@@ -3,12 +3,10 @@ import json
 import logging
 import re
 from pathlib import Path
-
+from pipeline.config import ESM_MODEL_NAME
 import numpy as np
 import torch
 import esm
-import MDAnalysis as mda
-from pipeline.config import ESM_MODEL_NAME
 from pipeline.features.esm_embed import extract_features
 from pipeline.graph.builder import build_pyg_graph, write_contact_sidecar
 from pipeline.sim.processor import SimulationProcessor
@@ -17,7 +15,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--replica-dir", type=Path, required=False, default="../mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1")
+    parser.add_argument("--replica-dir", type=Path, required=False, default="~/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1")
     parser.add_argument("--protein-id", type=str, required=False, default="AFR1")
     parser.add_argument("--pocket-id", type=str, required=False, default="pocket1")
     parser.add_argument("--ligand", type=str, default="Milbemycin")
@@ -25,7 +23,7 @@ def main():
     args = parser.parse_args()
 
     cutoff = None
-    OUT_ROOT = Path("../pipeline/data_graph_v3").resolve()
+    OUT_ROOT = Path("~/pipeline/data_graph_v3").resolve()
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
 
     # ───────────────────── run the processor ─────────────────────
@@ -34,7 +32,6 @@ def main():
         protein_id         = args.protein_id,
         pocket_id          = args.pocket_id,
         ligand_name        = args.ligand,
-        stability_threshold=cutoff,        # ← derived above (or None)
         logger             = LOGGER,
         target_n           = 20,
     )
@@ -132,5 +129,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#python -m pipeline.cli.process_replica --replica-dir "/home/zhenli/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1"  --protein-id "AFR1" --pocket-id "pocket1" --ligand "Milbemycin"
