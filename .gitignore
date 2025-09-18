@@ -1,0 +1,17 @@
+# Ignore all docking output files
+*.pdbqt
+_*
+# IDE-specific and macOS system files
+.idea/
+.DS_Store
+._.DS_Store
+doc/._.DS_Store
+*.DS_Store*
+*docking*
+*study_case*
+train_log*
+*pyc
+
+# Ignore generated figures
+*.png
+dataset/protein/protein_db/proteins/prankweb
