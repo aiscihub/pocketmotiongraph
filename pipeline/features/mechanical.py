@@ -200,7 +200,7 @@ def plip_features_from_summary(csv_path: Path) -> dict[str, float]:
 
 # Usage example
 if __name__ == "__main__":
-    # pdb_path = "/home/zhenli/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket14/replica_0/AFR1_prepared_Milbemycin_pocket14_complex_clean.pdb"
+    # pdb_path = "~/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket14/replica_0/AFR1_prepared_Milbemycin_pocket14_complex_clean.pdb"
     # center = (29.7694, 12.4363, 6.8341)
     # # the result 286 vs 297 is close to prankweb
     # try:
@@ -209,15 +209,15 @@ if __name__ == "__main__":
     # except Exception as e:
     #     print(f"Error calculating volume: {e}")
 
-    # pdb_init = "/home/zhenli/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1/AFR1_prepared_Milbemycin_pocket1_complex_recombined_complex_explicit_initial_frame.pdb"
-    # pdb_final = "/home/zhenli/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1/AFR1_prepared_Milbemycin_pocket1_complex_recombined_complex_explicit_final_frame.pdb"
+    # pdb_init = "~/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1/AFR1_prepared_Milbemycin_pocket1_complex_recombined_complex_explicit_initial_frame.pdb"
+    # pdb_final = "~/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1/AFR1_prepared_Milbemycin_pocket1_complex_recombined_complex_explicit_final_frame.pdb"
     #
     # drift, _, _ = measure_drift_from_pdbs(pdb_init, pdb_final)
     # print(drift)
 
 
     replica_dir = Path("/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1")
-    csv_path    = Path("/home/zhenli/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1/plip_results/all_plip_interactions_summary.csv")
+    csv_path    = Path("~/git/valleyfevermutation/mutation_pipeline/md/AFR1/simulation_explicit/pocket1/replica_1/plip_results/all_plip_interactions_summary.csv")
 
     row = plip_features_from_summary(csv_path)
     row["protein_id"] = "AFR1"

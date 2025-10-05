@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-DOMAIN_MAP_DIR = Path("/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/gff/")
+DOMAIN_MAP_DIR = Path("~/git/valleyfevermutation/mutation_pipeline/dataset/proteins/gff/")
 # coarse labels you already use in the graph builder
 DOMAIN_GROUPS = {
     "NBD":  "NBD",
@@ -91,6 +91,6 @@ def cached_domain_map(protein_id: str) -> dict[int, str]:
     return _DOMAIN_MAP_CACHE[protein_id]
 
 if __name__ == "__main__":
-    gff_directory = Path("/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/gff/")
-    output_directory = Path("/home/zhenli/git/valleyfevermutation/mutation_pipeline/dataset/proteins/gff")
+    gff_directory = Path("~/git/valleyfevermutation/mutation_pipeline/dataset/proteins/gff/")
+    output_directory = Path("~/git/valleyfevermutation/mutation_pipeline/dataset/proteins/gff")
     generate_all_domain_maps(gff_directory, output_directory)
