@@ -8,7 +8,7 @@ This repository contains the full codebase, dataset scripts, and trained models 
 ![arch_diagram.png](./doc/arch_diagram.png)
 ##  Key Features
 
-- **Benchmark Dataset**: 4,525 spatiotemporal residue-level graphs from 2 ns MD simulations across 240 druggable pockets from 16 ABC transporters.
+- **ABC Transporter Dataset**: 4,525 spatiotemporal residue-level graphs from 2 ns MD simulations across 240 druggable pockets from 16 ABC transporters.
 - **End-to-End Framework**: Converts MD trajectories into graphs encoding pocket dynamics, residue interactions, and physicochemical features.
 - **SE(3)-Equivariant Model**: Utilizes an E(n)-equivariant GNN (EGNN) for predicting ligand RMSD drift and classifying stable/unstable pockets.
 - **Fast + Scalable**: Achieves robust performance using only 2 ns MD per pocket, reducing GPU cost by >50× compared to long MD baselines.
